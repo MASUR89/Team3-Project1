@@ -145,7 +145,6 @@ font-weight: 400;
     justify-content: center;
 }
 
-
 /* t3-1 */
 
 .container1 {
@@ -268,6 +267,101 @@ font-weight: 400;
     font-size: 16px;
     font-weight: 500;
 }
-:hover.button7 {
+.button7:hover {
     background: #f9d3a8;
 }
+footer {
+    width: 100vw;
+    height: 435px;
+    padding: 0 120px;
+    background-color: #402613;
+    display: flex;
+    flex-direction: column;
+}
+.upper {
+    width: 100%;
+    height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apps {
+    width: 360px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.last-text {
+    width: 100%;
+    height: 64px;
+    color: rgba(255, 255, 255, 0.71);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 32px;
+}
+.icons {
+    width: 200px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 50%;
+}
+.image:hover {
+    cursor: pointer;
+}
+.lists {
+    width: 735px;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.lists ul {
+    flex-direction: column;
+    align-items: start;
+    line-height: 45px;
+}
+.office {
+    width: 200px;
+    color: var(--Light, #F4F4F4);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 190%;
+}
+.office p {
+    margin-bottom: 10px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.lower {
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
