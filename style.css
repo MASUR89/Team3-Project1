@@ -62,8 +62,13 @@ ul {
     font-size: 14px;
     font-weight: 300;
 }
+ul li {
+    transition: all 0.2s ease-in-out;
+}
 ul li:hover {
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
 }
 .tright {
     width: 180px;
@@ -75,10 +80,15 @@ ul li:hover {
     color: #FFF;
     font-size: 14px;
     font-weight: 300;
+    transition: all 0.2s ease-in-out; 
 }
+
 .tright span:hover {
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
 }
+
 .tright button {
     width: 118px;
     height: 38px;
@@ -86,10 +96,17 @@ ul li:hover {
     background: transparent;
     color: white;
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out; 
 }
-.tright button:hover{
+
+.tright button:hover {
     cursor: pointer;
+    background-color: #FF9F34;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .bottom {
     width: 100%;
@@ -127,13 +144,17 @@ ul li:hover {
     color: white;
     font-size: 16px;
     font-weight: 400;
+    transition: all 0.2s ease-in-out;
 }
 .yellow:hover {
     cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    font-size: 17px;
 }
 .right {
-    width: 700px;
-    height: 100%;
+    width: 600px;
+    height: 90%;
 }
 .main {
     width: 100vw;
@@ -399,10 +420,12 @@ footer {
     justify-content: center;
 }
 img {
+    width: 20px;
     height: 50%;
 }
 .image:hover {
     cursor: pointer;
+    background: #f9d3a8;
 }
 .lists {
     width: 735px;

@@ -12,3 +12,22 @@ document.querySelectorAll('.q-box .question').forEach(question => {
         }
     });
 });
+
+document.querySelectorAll('.icons .image img').forEach((icon, index) => {
+    icon.addEventListener('click', () => {
+        const urls = [
+            'https://www.facebook.com/groups/276503652755966',   
+            'https://www.instagram.com/software.agency/',        
+            'https://x.com/?mx=2',                                
+            'https://www.youtube.com/results?search_query=software+agency' 
+        ];
+        
+        if (urls[index]) {
+            window.open(urls[index], '_blank');
+        }
+    });
+});
+
+document.querySelector('.home-link').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
