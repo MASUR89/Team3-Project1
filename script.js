@@ -31,3 +31,11 @@ document.querySelectorAll('.icons .image img').forEach((icon, index) => {
 document.querySelector('.home-link').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+
+document.querySelector('.grey').addEventListener('click', () => {
+    const iframe = document.querySelector('iframe');
+    const videoUrl = iframe.src.split('?')[0]; // ვიღებ ვიდეოს URL-ს
+
+    window.open(videoUrl, '_blank');
+});

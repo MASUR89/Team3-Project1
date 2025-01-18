@@ -82,13 +82,11 @@ ul li:hover {
     font-weight: 300;
     transition: all 0.2s ease-in-out; 
 }
-
 .tright span:hover {
     cursor: pointer;
     font-size: 15px;
     font-weight: 400;
 }
-
 .tright button {
     width: 118px;
     height: 38px;
@@ -99,7 +97,6 @@ ul li:hover {
     font-weight: 400;
     transition: all 0.2s ease-in-out; 
 }
-
 .tright button:hover {
     cursor: pointer;
     background-color: #FF9F34;
