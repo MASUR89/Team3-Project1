@@ -568,6 +568,10 @@ p {
         text-align: start;
         overflow: hidden;
     }
+    .FAQ {
+        width: auto;
+        
+    }
     .faq-head {
         height: auto;
         gap: 16px;
@@ -582,12 +586,12 @@ p {
         overflow: hidden;
     }
     .faq-questions {
+        width: 303px;
         flex-direction: row;
         align-items: start;
         justify-content: start;
         overflow: hidden; 
-        position: relative;
-        transition: transform 0.5s ease-in-out;
+    
     }
     .q-box {
         width: 310px;
@@ -597,6 +601,9 @@ p {
     }
     .q-text span {
         display: none;
+    }
+    .answer {
+        width: 100%;
     }
     .container7 {
         height: 318px;
@@ -679,4 +686,22 @@ p {
     .main {
         padding: 120px 24px;
     }
+}
+@media (max-width:400px) {
+    .yellow, .grey {
+        width: 156px;
+    }
+    .apps {
+        width: auto;
+    }
+    .last-text {
+        height: auto;
+    }
+    .lists {
+        width: 327px;
+    }
+    .links {
+        width: 60px;
+    }
+
 }
