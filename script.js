@@ -39,3 +39,11 @@ document.querySelector('.grey').addEventListener('click', () => {
 
     window.open(videoUrl, '_blank');
 });
+
+
+var swiper = new Swiper(".mySwiper", {
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      hide: true,
+    },
+  });

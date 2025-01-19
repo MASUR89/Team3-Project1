@@ -237,9 +237,12 @@ ul li:hover {
     width: 514px;
     height: 96px;
     color: rgba(30, 16, 0, 0.71);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 32px; 
+}
+.description span, .description br  {
+    display: none;
 }
 /* faq */
 .FAQ {
@@ -332,6 +335,9 @@ ul li:hover {
 .answer.show {
     max-height: 250px; 
     padding-top: 16px;
+}
+.FAQ1 {
+    display: none;
 }
 
 /* t3-7 */
@@ -564,25 +570,40 @@ p {
         line-height: 36px;
     }
     .description {
-        width: 340px;
+        width: 327px;
         text-align: start;
         overflow: hidden;
     }
+    .description span, .description br  {
+        display: inline;
+    }
+    .main {
+        padding: 120px 24px;
+    }
     .FAQ {
-        width: auto;
-        
+        display: none;
+    }
+    .FAQ1 {
+        display: block;
+        width: 320px;
+        height: 472px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
     .faq-head {
         height: auto;
         gap: 16px;
     }
     .f-title {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 36px; 
     }
     .f-text {
         width: 300px;
         height: 58px;
+        font-size: 15px;
         overflow: hidden;
     }
     .faq-questions {
@@ -591,7 +612,6 @@ p {
         align-items: start;
         justify-content: start;
         overflow: hidden; 
-    
     }
     .q-box {
         width: 310px;
@@ -599,12 +619,34 @@ p {
         padding: 0;
         text-align: center;
     }
+    .question {
+        margin-bottom: 16px;
+    }
     .q-text span {
         display: none;
     }
-    .answer {
+    .answer  {
         width: 100%;
+        height: 160px;
+        font-size: 15px;
+        line-height: 30px;
+        display: contents;
+        justify-content: end;
     }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
     .container7 {
         height: 318px;
         padding: 60px 41px;
@@ -674,6 +716,7 @@ p {
         line-height: 48px;
     }
     .textS {
+        width: 100%;
         height: 96px;
         overflow: hidden;
     }
@@ -683,9 +726,7 @@ p {
     .right {
         display: none;
     }
-    .main {
-        padding: 120px 24px;
-    }
+    
 }
 @media (max-width:400px) {
     .yellow, .grey {
