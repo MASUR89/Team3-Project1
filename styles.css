@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1-container {
+    width: 536px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-header1 {
+
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: #1E1000;
+}
+
+.content-container {
+    display: flex;
+    width: 100%;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-content {
+    width: 502px;
+    height: 444px;
+}
+
+.sub-header1 {
+  
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    color: #121212;
+    width: 398px;
+    height: 36px;
+    margin: 0;
+}
+
+.description1 {
+  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 356px;
+    height: 64px;
+    color: #1E1000B5;
+    margin-bottom: 35px;
+}
+
+.small-container {
+    display: flex;
+    width: 450px;
+    height: 80px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+    padding: 15px;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    padding: 0;
+}
+
+.ellipse {
+    margin-left: 122px;
+}
+
+.small-container svg {
+    margin-left: 25px;
+}
+
+.arrow1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.text-container {
+    flex-grow: 1;
+    margin-left: 25px;
+}
+
+.header1 {
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    margin: 0;
+}
+
+.sub-description1 {
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #1E1000B5;
+    width: 271px;
+    margin: 0;
+}
+
+.right-content {
+    margin-left: auto;
+}
+
+.gray-box {
+    width: 698px;
+    height: 444px;
+    background-color: #C4C4C4;
+    background-image: url('https://mbsedu.org.uk/wp-content/uploads/2023/06/teams.jpg');
+    background-image:;
+}
+
+.ellipse {
+    width: 52px;
+    height: 52px;
+    background-color: #FF9F34;
+    opacity: 0.08;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+
+.new-container {
+    width: 1224px;
+    height: 636px;
+    margin: 180px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom:24px;
+}
+
+.left-part {
+    width: 60%;
+}
+
+.case-studies-title {
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    margin: 0;
+}
+
+.right-part {
+    width: 38%;
+    display: flex;
+}
+
+.case-studies-description1 {
+   
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #1E1000B5;
+    width: 514px;
+    height: 96px;
+}
+
+.down-containers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1224px;
+    margin-top: 12px; 
+}
+
+.down-container {
+    width: 384px;
+    height: 300px;
+    background-color: #C4C4C4; 
+}
+
+.down-container .content {
+    margin-left: 24px; 
+}
+
+.down-containers-wrapper > .down-container:not(:last-child) {
+    margin-right: 36px; 
+}
+
+
+.date, .heading, .description1 {
+    margin-left: 0;
+}
+
+
+
+.rectangle {
+    width: 100%;
+    height: 300px;
+    background-color: #C4C4C4;
+}
+
+.date {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9F34;
+}
+
+.heading {
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #1E1000;
+}
+
+.description1 {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #1E1000;
+}
