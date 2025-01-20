@@ -21,6 +21,8 @@ body {
     width: 100%;
     margin-top: 52px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left-content {
@@ -87,7 +89,6 @@ body {
     width: 350px;
     height: 55px;
 }
-
 .header1 {
     font-size: 18px;
     font-weight: 500;
@@ -102,109 +103,91 @@ body {
     color: #1E1000B5;
     margin-top: 8px;
 }
-
 .right-content {
-    margin-left: auto;
-}
-
-.gray-box {
     width: 698px;
     height: 444px;
-    background-color: #C4C4C4;
     background-image: url('https://mbsedu.org.uk/wp-content/uploads/2023/06/teams.jpg');
 }
 
-.new-container {
-    width: 1224px;
+.case-studies {
+    width: 100%;
     height: 636px;
-    margin: 180px auto 0 auto;
+}
+.new-container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .up-part {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom:24px;
 }
-
 .left-part {
-    width: 60%;
-}
-
-.case-studies-title {
-    
+    width: 445px;
+    height: 120px;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 0.5px;
     color: #121212;
-    margin: 0;
 }
-
 .right-part {
-    width: 38%;
-    display: flex;
-}
-
-.case-studies-description1 {
-   
+    width: 514px;
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
     color: #1E1000B5;
-    width: 514px;
-    height: 96px;
 }
-
 .down-containers-wrapper {
+    width: 100%;
+    height: 465px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 1224px;
-    margin-top: 12px; 
+    width: 100%;
 }
 
 .down-container {
     width: 384px;
-    height: 300px;
-    background-color: #C4C4C4; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.down-container .content {
-    margin-left: 24px; 
-}
-
-.down-containers-wrapper > .down-container:not(:last-child) {
-    margin-right: 36px; 
-}
-
-
-.date, .heading, .description1 {
-    margin-left: 0;
-}
-
-
 
 .rectangle {
     width: 100%;
     height: 300px;
-    background-color: #C4C4C4;
 }
-
+.rectangle img {
+    width: 100%;
+    height: 100%;
+}
+.some-data {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .date {
-    margin-top: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FF9F34;
 }
-
 .heading {
-    margin-top: 14px;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.5px;
     color: #1E1000;
+}
+.some-data .description1 {
+    width: 85%;
 }
