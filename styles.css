@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body {
 
 .header1-container {
     width: 536px;
-    height: 120px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .main-header1 {
-    font-family: 'Poppins', sans-serif;
+
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 0.5px;
@@ -25,7 +25,7 @@ body {
 
 .content-container {
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin-top: 52px;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ body {
 }
 
 .sub-header1 {
-    font-family: 'Poppins', sans-serif;
+  
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -49,7 +49,7 @@ body {
 }
 
 .description1 {
-    font-family: 'Poppins', sans-serif;
+  
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -92,7 +92,7 @@ body {
 }
 
 .header1 {
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -102,7 +102,7 @@ body {
 }
 
 .sub-description1 {
-    font-family: 'Inter', sans-serif;
+    
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
@@ -153,7 +153,7 @@ body {
 }
 
 .case-studies-title {
-    font-family: 'Poppins', sans-serif;
+    
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
@@ -168,7 +168,7 @@ body {
 }
 
 .case-studies-description1 {
-    font-family: 'Poppins', sans-serif;
+   
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
@@ -213,7 +213,6 @@ body {
 
 .date {
     margin-top: 24px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -222,7 +221,6 @@ body {
 
 .heading {
     margin-top: 14px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
@@ -232,7 +230,6 @@ body {
 
 .description1 {
     margin-top: 18px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
