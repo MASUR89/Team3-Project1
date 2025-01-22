@@ -108,33 +108,36 @@ body {
     height: 444px;
     background-image: url('https://mbsedu.org.uk/wp-content/uploads/2023/06/teams.jpg');
 }
-
 .case-studies {
     width: 100%;
-    height: 636px;
+    height: auto;
 }
+
 .new-container {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .up-part {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 30px;
 }
+
 .left-part {
     width: 445px;
-    height: 120px;
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 0.5px;
     color: #121212;
 }
+
 .right-part {
     width: 514px;
     font-weight: 400;
@@ -142,6 +145,72 @@ body {
     line-height: 32px;
     color: #1E1000B5;
 }
+
+/* Styles for the lower section - horizontal scroll */
+.down-containers-wrapper {
+    display: flex;
+    flex-wrap: nowrap;  /* Make sure elements stay in one row */
+    justify-content: flex-start;
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.down-container {
+    width: 384px;  /* Set the width of each container */
+    flex-shrink: 0; /* Prevent shrinking */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.rectangle {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.rectangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.some-data {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9F34;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #1E1000;
+}
+
+.some-data .description1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1000B5;
+}
+
 .down-containers-wrapper {
     width: 100%;
     height: 465px;
@@ -190,4 +259,215 @@ body {
 }
 .some-data .description1 {
     width: 85%;
+}
+@media screen and (max-width: 1200px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .left-content, .right-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header1-container {
+        font-size: 32px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .up-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .right-part {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .down-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header1-container {
+        font-size: 30px;
+        height: 90px;
+        padding: 10px;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .up-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .right-part {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .down-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header1-container {
+        font-size: 24px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .left-content-head, .text-container {
+        width: 100%;
+    }
+
+    .left-part {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .right-part {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .down-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .case-studies {
+        padding: 10px;
+    }
+
+    .new-container {
+        padding: 0;
+    }
+
+    .rectangle {
+        height: 180px;
+    }
+
+    .down-containers-wrapper {
+        flex-direction: column;
+    }
+
+    .down-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+    .up-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part, .right-part {
+        width: 100%;
+        text-align: center;
+    }
+
+    .down-containers-wrapper {
+        gap: 20px;
+    }
+
+    .down-container {
+        width: 300px;  /* Adjust size for tablets */
+    }
+}
+
+/* For smaller screens (mobiles) */
+@media screen and (max-width: 768px) {
+    .up-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part, .right-part {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .down-containers-wrapper {
+        gap: 15px;
+    }
+
+    .down-container {
+        width: 250px;  /* Further reduced size for mobile */
+    }
+
+    .rectangle {
+        height: 200px;
+    }
+
+    .some-data .heading {
+        font-size: 20px;
+    }
+
+    .some-data .description1 {
+        font-size: 12px;
+    }
+}
+
+/* For very small screens (extra small devices like older phones) */
+@media screen and (max-width: 480px) {
+    .up-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-part, .right-part {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .down-containers-wrapper {
+        gap: 10px;
+    }
+
+    .down-container {
+        width: 200px;  /* Further reduced size for very small devices */
+    }
+
+    .rectangle {
+        height: 180px;
+    }
+
+    .some-data .heading {
+        font-size: 18px;
+    }
+
+    .some-data .description1 {
+        font-size: 12px;
+    }
 }
