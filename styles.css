@@ -111,7 +111,7 @@ body {
 
 .case-studies {
     width: 100%;
-    height: 636px;
+    height: 637px;
 }
 .new-container {
     width: 100%;
@@ -148,7 +148,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
 }
 
 .down-container {
@@ -191,3 +190,122 @@ body {
 .some-data .description1 {
     width: 85%;
 }
+
+@media (max-width: 1390px) {
+    .left-part {
+        font-size: 36px;
+    }
+    .down-container {
+        width: 300px;
+        height: 400px;
+    }
+    .rectangle {
+        height: 234px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .left-content {
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .small-container {
+        width: 400px;
+    }
+    .case-studies {
+        overflow-x: hidden;
+    }
+    .down-containers-wrapper {
+        width: 920px;
+        align-items: start;
+    }
+    .heading {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .header1-container {
+        height: auto;
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .left-content {
+        height: 376px;
+    }
+    .left-content-head {
+        height: auto;
+    }
+    .sub-header1 {
+        display: none;
+    }
+    .description1 {
+        width: 100%;
+    }
+    .up-part {
+        height: 260px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .left-part {
+        height: auto;
+        font-size: 32px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .right-part {
+        font-size: 16px;
+        text-align: center;
+    }
+    .some-data {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .benefits {
+        height: 500px;
+    }
+    .header1-container {
+        font-size: 30px;
+    } 
+    .right-content {
+        display: none;
+    }
+    .left-part {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .right-part {
+        width: 430px;
+        height: 96px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header1-container {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+    }
+    .left-content-head {
+        width: 100%;
+    }
+    .left-part {
+        width: 100%;
+        text-align: left;
+    }
+    .right-part {
+        width: 100%;
+        text-align: left;
+    }
+    .down-container {
+        height: 383px;
+    }
+} 
+
