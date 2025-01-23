@@ -288,10 +288,24 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    /* .benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } */
     .header1-container {
         font-size: 24px;
         line-height: 36px;
         text-align: left;
+    }
+    .small-container {
+        width: 327px;
+    }
+    .text-container {
+        width: 250px;
+    }
+    .arrow1 {
+        display: none;
     }
     .left-content-head {
         width: 100%;
