@@ -488,7 +488,6 @@ p {
 }
 
 /* t3-3 */
-
 .container3 {
     width: 100%;
     height: 660px;
@@ -500,7 +499,9 @@ p {
 .graybox {
     width: 600px;
     height: 500px;
-    background: #C4C4C4;
+    background-image: url(./images/team.jpg);
+    background-size: cover;
+    background-position: center;
     position: absolute;
     z-index: 2;
 }

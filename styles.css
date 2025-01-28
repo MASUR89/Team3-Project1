@@ -220,7 +220,7 @@ body {
     }
     .down-containers-wrapper {
         width: 920px;
-        align-items: start;
+        align-items: center;
     }
     .heading {
         font-size: 18px;
