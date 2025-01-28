@@ -14,9 +14,6 @@ document.querySelectorAll('.q-box .question').forEach(question => {
 });
 
 
-
-
-
 document.querySelectorAll('.icons .image img').forEach((icon, index) => {
     icon.addEventListener('click', () => {
         const urls = [
