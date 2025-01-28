@@ -586,12 +586,12 @@ display: none;
         left: 0px;
         display: flex;
         justify-content: center;
-    
+        padding-right: 0;
     }
     .textebi {
         width: 335px;
         height: 428px;
-        padding: 211px 16px 60px 24px;
+        padding: 180px 16px 60px 24px;
         display: flex;
         flex-direction: column;
         gap: 0px;
