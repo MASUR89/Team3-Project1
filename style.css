@@ -365,3 +365,347 @@ p {
     font-weight: 400;
 }
 
+<<<<<<< Updated upstream
+=======
+/* t3-3 */
+
+.container3 {
+    width: 100%;
+    height: 660px;
+}
+.box3 {
+    display: flex;
+    position: relative;
+}
+.graybox {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+}
+.text3 {
+    width: 100%;
+    height: 540px;
+    background: #402613;
+    position: absolute;
+    z-index: 1;
+    left: 170px;
+    top: 120px;
+    display: flex;
+    justify-content: end;
+
+}
+.textebi {
+    height: 428px;
+    padding: 52px 110px 60px 526px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.satauri3 {
+    width: 430px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 0.5px;
+}
+.paragraph {
+    width: 514px;
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.paragraphtext {
+    color: rgba(255, 255, 255, 0.71);
+font-family:  "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px; 
+}
+
+@media (max-width: 1390px) {
+    .right {
+        width: 520px;
+        height: 417px;
+    }
+    .graybox {
+        width: 327px;
+        height: 272px;
+        position: relative;
+        align-items: center;
+
+    }
+    .teamphoto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .text3 {
+        width: 114%;
+        height: 491px;
+        left: -24px;
+        top: 109px;
+        justify-content: center;
+    }
+    .textebi {
+        height: 428px;
+        padding: 52px 110px 60px 250px;
+    gap: 16px;
+    }
+    .satauri3 {
+        width: 279px;
+        font-size: 24px;
+        line-height: 36px; 
+    }
+    
+        
+    
+    
+}
+
+@media (max-width: 1255px) {
+    header {
+        height: auto;
+    }
+    .tmiddle {
+        width: 480px;
+        padding-left: 0;
+    }
+    .bottom {
+        height: auto;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .container1 {
+        height: auto;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .description {
+        width: 590px;
+        text-align: center;
+    }
+    footer {
+        height: auto;
+    }
+    .upper {
+        flex-direction: column;
+        height: 650px;
+        gap: 60px;
+        padding: 60px;
+    }
+}
+@media (max-width: 1100px) {
+    .tmiddle {
+        display: none;
+    }
+    .f-title {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .textL {
+        font-size: 40px;
+    }
+    .container1 {
+        padding: 40px 24px;
+    }
+    .text1 {
+        height: auto;
+    }
+    .box1 {
+        width: 335px;
+        height: 72px;
+    }
+    .bold {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .normal {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .description {
+        width: 327px;
+        text-align: start;
+        overflow: hidden;
+    }
+    .description span, .description br  {
+        display: inline;
+    }
+    .main {
+        padding: 120px 24px;
+    }
+    .FAQ {
+        display: none;
+    }
+    .FAQ1 {
+        display: block;
+        width: 320px;
+        height: 472px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .faq-head {
+        height: auto;
+        gap: 16px;
+    }
+    .f-title {
+        font-size: 22px;
+        line-height: 36px; 
+    }
+    .f-text {
+        width: 300px;
+        height: 58px;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .faq-questions {
+        width: 303px;
+        height: 270px;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        overflow: hidden; 
+    }
+    .q-box {
+        width: 310px;
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+    .question {
+        margin-bottom: 16px;
+    }
+    .q-text span {
+        display: none;
+    }
+    .answer  {
+        width: 100%;
+        height: 160px;
+        font-size: 16px;
+        line-height: 30px;
+        display: contents;
+        overflow: hidden;
+    }
+    .swiper  {
+        width: 100%;
+        height: 84%;
+      }
+    .swiper-pagination {
+        width: 20%;
+        border: 1px solid #FF9F34;
+    }
+
+    .container7 {
+        height: 318px;
+        padding: 60px 41px;
+    }
+    .box7 {
+        height: 200px;
+    }
+    .text7-1 {
+        height: 36px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .text7-2 {
+        width: 300px;
+    }
+    .text7-2 br {
+        display: none;
+    }
+    footer {
+        height: 801px;
+        padding: 40px 24px;
+    }
+    .upper {
+        height: 100%;
+        padding: 0;
+    }
+    .apps {
+        height: 200px;
+    }
+    .lists {
+        width: 360px;
+        height: 500px;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .links {
+        width: 150px;
+    }
+    .resorces {
+        width: 200px;
+    }
+    .office {
+        margin-top: 50px;
+    }
+    .about {
+        display: none;
+    }
+    
+}
+@media (max-width: 600px) {
+    header {
+        height: 506px;
+        padding: 40px 24px;
+    }
+    .top {
+        height: 50px;
+        /* არ მოქმედებს */
+    }
+    .tright {
+        display: none;
+    }
+    .left {
+        width: 100%;
+        height: 348px;
+    }
+    .textL {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .textS {
+        width: 100%;
+        height: 96px;
+        overflow: hidden;
+    }
+    .grey {
+        display: block;
+    }
+    .right {
+        display: none;
+    }
+    
+    
+}
+@media (max-width:400px) {
+    .yellow, .grey {
+        width: 156px;
+    }
+    .apps {
+        width: auto;
+    }
+    .last-text {
+        height: auto;
+    }
+    .lists {
+        width: 327px;
+    }
+    .links {
+        width: 60px;
+    }
+
+}
+>>>>>>> Stashed changes
