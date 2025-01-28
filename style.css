@@ -533,7 +533,6 @@ p {
     letter-spacing: 0.5px;
 }
 .paragraph {
-    width: 514px;
     width: 450px;
     color: rgba(255, 255, 255, 0.71);
     font-size: 16px;
@@ -544,49 +543,13 @@ p {
     justify-content: space-around;
 }
 
-.paragraphtext {
-    color: rgba(255, 255, 255, 0.71);
-font-family:  "Poppins", sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px; 
-}
 
 @media (max-width: 1390px) {
     .right {
         width: 520px;
         height: 417px;
     }
-    .graybox {
-        width: 327px;
-        height: 272px;
-        position: relative;
-        align-items: center;
-    }
-    .teamphoto {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-    .text3 {
-        width: 114%;
-        height: 491px;
-        left: -24px;
-        top: 109px;
-        justify-content: center;
-    }
-    .textebi {
-        height: 428px;
-        padding: 52px 110px 60px 250px;
-    gap: 16px;
-    }
-    .satauri3 {
-        width: 279px;
-        font-size: 24px;
-        line-height: 36px; 
-    }
-    
+}
 
 @media (max-width: 1255px) {
     header {
@@ -772,7 +735,6 @@ line-height: 32px;
     .about {
         display: none;
     }
-
 }
 @media (max-width: 600px) {
     header {
@@ -805,7 +767,6 @@ line-height: 32px;
     .right {
         display: none;
     }
-
     .graybox {
         width: 327px;
         height: 272px;
@@ -817,7 +778,6 @@ line-height: 32px;
         left: -24px;
         top: 109px;
     }
-
 }
 @media (max-width:400px) {
     .yellow, .grey {
@@ -835,5 +795,5 @@ line-height: 32px;
     .links {
         width: 60px;
     }
-}
 
+}
